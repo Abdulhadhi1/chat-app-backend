@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cors());
 
 
-const dbUrl = "mongodb+srv://abdul123:abdul123@cluster0.xtrfob5.mongodb.net/newdata?retryWrites=true&w=majority"
+const dbUrl = "dburl"
 
 
 mongoose.connect(dbUrl);
